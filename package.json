@@ -1,0 +1,21 @@
+{
+  "name": "pdfmerge-cli",
+  "version": "1.0.0",
+  "description": "Merge pdf to command line interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "pdf merge",
+    "pdf merge cli",
+    "command line pdf merge"
+  ],
+  "author": "Tamas Dovicsin",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-merger-js": "^3.4.0",
+    "yargs": "^17.5.1"
+  }
+}
