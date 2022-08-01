@@ -1,7 +1,7 @@
 {
   "name": "pdfmerge-cli",
   "version": "1.0.0",
-  "description": "Merge pdf to command line interface.",
+  "description": "Merge pdf command line interface.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
