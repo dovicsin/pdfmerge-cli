@@ -15,7 +15,6 @@
   "author": "Tamas Dovicsin",
   "license": "MIT",
   "dependencies": {
-    "pdf-merger-js": "^3.4.0",
-    "yargs": "^17.5.1"
+    "pdf-merger-js": "^3.4.0"
   }
 }
