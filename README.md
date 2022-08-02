@@ -19,7 +19,7 @@ pdfmerge-cli first.pdf sec.pdf other.pdf
 |    Name     |  Flag  | Short |      Default      |                                                Description                                                 |
 | :---------: | :----: | :---: | :---------------: | :--------------------------------------------------------------------------------------------------------: |
 | Output file | --out  |  -o   |    merged.pdf     |                                      Output file name with extension.                                      |
-|    Pages    | --page |  -p   | null ( all page ) | This parameter controls which page(s) to be merged from every document. Must be specified separately after |
+|    Pages    | --page |  -p   | null ( all page ) | This parameter controls which page(s) to be merged from every document. |
 
 ## Correct Pages examples
 
