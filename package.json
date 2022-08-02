@@ -1,5 +1,5 @@
 {
-  "name": "pdfmerge-cli",
+  "name": "@dovicsin/pdfmerge-cli",
   "version": "1.0.0",
   "description": "Merge pdf command line interface.",
   "main": "index.js",
@@ -16,5 +16,14 @@
   "license": "MIT",
   "dependencies": {
     "pdf-merger-js": "^3.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dovicsin/pdfmerge-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dovicsin/pdfmerge-cli/issues"
+  },
+  "homepage": "https://github.com/dovicsin/pdfmerge-cli#readme"
 }
