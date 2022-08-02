@@ -1,6 +1,6 @@
 # Description
 
-This node JS liblary is simple pdf merge app. This is use the [pdf-merger-js](https://www.npmjs.com/package/pdf-merger-js) liblary and it provides command line interface from the original pdf merge liblary.
+This node JS library is a simple pdf merge app. It uses the [pdf-merger-js](https://www.npmjs.com/package/pdf-merger-js) library and it provides command line interface from the original pdf merge library.
 
 # Installation
 ```
@@ -17,9 +17,9 @@ pdfmerge-cli first.pdf sec.pdf other.pdf
 |   Name    |   Flag    |   Short   |   Default |   Description |
 |:---------:|:---------:|:---------:|:-------------:|:-------------:|
 |   Output file  |   --out   |   -o      |   merged.pdf   | Output file name with extension. |
-|   Pages   |   --page  |   -p  |    null ( all page )   | This parameter controls which pages are merged per evey document. Must be specified separately after 
+|   Pages   |   --page  |   -p  |    null ( all page )   | This parameter controls which page(s) to be merged from every document. Must be specified separately after
 
-## Pages correct varaiations
+## Correct Pages examples
 | Input | Description |
 |:-:|:-:|
 | 3 | merge only page 3 |
@@ -31,7 +31,7 @@ pdfmerge-cli first.pdf sec.pdf other.pdf
 pdfmerge-cli first.pdf -p 1-3 sec.pdf 10,15,20 other.pdf
 ```
 
-The result contained the frist.pdf 1 to 3 and sec.pdf 10 and 15 and 20 and the full other.pdf in this order.
+The result contains the frist.pdf 1 to 3 and sec.pdf 10 and 15 and 20 and the full other.pdf respectively.
 
 # More examples
 
