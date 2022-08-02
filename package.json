@@ -12,7 +12,7 @@
     "pdf merge cli",
     "command line pdf merge"
   ],
-  "author": "Tamas Dovicsin",
+  "author": "Tamas Dovicsin <truetomket@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "pdf-merger-js": "^3.4.0"

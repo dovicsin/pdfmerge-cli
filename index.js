@@ -5,11 +5,8 @@ const argv = process.argv
 
 let output = 'merged.pdf';
 
-//Ha pdf-re végződik akkor a visszatérési értéke igaz
 const isPDF = (arg) => arg.endsWith(".pdf")
-// Ha az paraméter -p vagy --page akkor a visszatérési értéke igaz
 const isPageFlag = (arg) => arg === "-p" || arg === "--page"
-//Ha output paraméter
 const isOutput = (arg) => arg === "-o" || arg === "--out"
 
 const allPdfList = [];
@@ -32,7 +29,6 @@ for (i = 0; i < argv.length; i++) {
 		allPdfList[allPdfList.length - 1].page = pages;
 	}
 }
-//Ha nincs benne pdf akkor üzenettel befejezni a program futását
 if (allPdfList.length <= 0) {
 	console.log("PDF file is required!");
 	process.exit(0);
