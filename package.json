@@ -1,6 +1,6 @@
 {
   "name": "@dovicsin/pdfmerge-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Merge pdf command line interface.",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,17 @@
     "pdf",
     "pdf merge",
     "pdf merge cli",
-    "command line pdf merge"
+    "command line pdf merge",
+    "cli"
   ],
+    "bin": {
+    "pdfmerge-cli": "index.js"
+  },
   "author": "Tamas Dovicsin <truetomket@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "pdf-merger-js": "^3.4.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dovicsin/pdfmerge-cli.git"
