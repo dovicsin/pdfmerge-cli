@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 const PDFMerger = require('pdf-merger-js');
 
