@@ -1,6 +1,6 @@
 {
   "name": "@dovicsin/pdfmerge-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Merge pdf command line interface.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "command line pdf merge",
     "cli"
   ],
-    "bin": {
+  "bin": {
     "pdfmerge-cli": "index.js"
   },
   "author": "Tamas Dovicsin <truetomket@gmail.com>",
